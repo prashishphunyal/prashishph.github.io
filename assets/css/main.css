@@ -10,7 +10,7 @@
     --hover-light-color: #fff;
     --transparent-dark-color: var(--secondary-background-color);
     --transparent-light-color: rgba(0,0,0,.1);
-    --hover-dark-color: var(--primary-background-color);
+    --hover-dark-color: var(--light-color-alt);
     --gradient-color: linear-gradient(
         115deg,#4fcf70,#fad648,#a767e5,#12bcfe,#44ce7b);
     --font-family: 'Poppins', sans-serif;
@@ -374,7 +374,7 @@ body.dark-theme{
 }
 
 .article:hover .article-data-spacer{
-    background-color: var(--hover-light-color);
+    background-color: var(--hover-dark-color);
 }
 
 .article:hover .article-title{
